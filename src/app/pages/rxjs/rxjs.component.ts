@@ -9,7 +9,7 @@ import { retry, map, filter } from 'rxjs/operators';
 })
 export class RxjsComponent implements OnInit, OnDestroy {
 
-  
+
   subscription: Subscription;
 
   constructor() {
