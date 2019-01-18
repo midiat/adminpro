@@ -7,6 +7,9 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+import { ProfileComponent } from './profile/profile.component';
+import { CommonModule } from '@angular/common';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 // ng2Charts para graficas
 import { ChartsModule } from 'ng2-charts';
@@ -19,8 +22,9 @@ import { RxjsComponent } from './rxjs/rxjs.component';
 
 // Pipes module
 import { PipesModule } from '../pipes/pipes.module';
-import { ProfileComponent } from './profile/profile.component';
-import { CommonModule } from '@angular/common';
+
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+
 
  @NgModule({
      declarations: [
@@ -33,7 +37,9 @@ import { CommonModule } from '@angular/common';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
 
      ],
      exports: [
