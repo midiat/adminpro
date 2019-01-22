@@ -14,7 +14,7 @@ export class ModalUploadComponent implements OnInit {
 
   constructor(public _cargaArchivoService: SubirArchivoService,
               public _modalUploadService: ModalUploadService) {
-    console.log('Modal cargado');
+    // console.log('Modal cargado');
 
   }
 
